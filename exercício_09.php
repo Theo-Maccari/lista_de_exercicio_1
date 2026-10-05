@@ -28,12 +28,12 @@ $primo = true;
         $perfeito = false;
     }
 
+}
+
 $resultado = analisarNumero(28);
 
 echo "Par ou ímpar: " . $resultado["Par ou ímpar"];
 echo "Primo: " . $resultado["Primo"];
 echo "Perfeito: " . $resultado["Perfeito"];
-
-}
 
 ?>
