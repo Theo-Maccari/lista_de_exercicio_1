@@ -9,4 +9,6 @@ function gerarSenha($tamanho) {
     return $senha;
 }
 
+echo "Senha gerada: " . gerarSenha(10);
+
 ?>
